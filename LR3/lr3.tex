@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6in, 8.5in}]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {images/output/} }
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage[english]{babel}
+\usepackage{placeins}
+\usepackage{titling}
+
+\title{Study of different git commands.}
+\author{}
+\date{}
+
+\begin{document}
+\pagenumbering{gobble}
+\input{oishi_mam_cover.tex}
+
+\maketitle
+\section*{Introduction}
+\section*{Introduction to Git and GitHub}
+Git is a widely-used version control system that allows developers to track changes in code, collaborate, and manage projects efficiently. It records each modification in a repository, making it easy to revisit or revert to previous states. GitHub, a platform that hosts Git repositories, provides additional tools for code sharing, collaboration, and project management. Together, Git and GitHub enable streamlined teamwork, transparency in project history, and an organized approach to software development.
+
+\section*{Basic Git Commands}
+Here is a list of essential Git commands used for creating, managing, and collaborating on Git repositories:
+
+\begin{itemize}
+    \item[] \texttt{git init} — Initializes a new Git repository in the current directory.
+
+    \item[] \texttt{git clone <url} \\Clones an existing repository from a remote source (e.g., GitHub) to your local machine.
+
+    \item[] \texttt{git status} \\Displays the current status of the repository, showing staged, unstaged, and untracked files.
+
+    \item[] \texttt{git add <file>} \\Adds specified files to the staging area in preparation for a commit. Use \texttt{git add .} to stage all changes.
+
+    \item[] \texttt{git commit -m "message"} \\Commits the staged changes with a descriptive message.
+
+    \item[] \texttt{git push} \\Uploads local commits to a remote repository (e.g., GitHub).
+
+    \item[] \texttt{git pull} \\Retrieves the latest changes from a remote repository and merges them into the local branch.
+
+    \item[] \texttt{git branch} \\Lists all branches in the repository. Add \texttt{git branch <branch\_name>} to create a new branch.
+
+    \item[] \texttt{git checkout <branch\_name>} \\Switches to the specified branch. Use \texttt{git checkout -b <new\_branch>} to create and switch to a new branch simultaneously.
+
+    \item[] \texttt{git merge <branch\_name>} \\Merges the specified branch into the current branch.
+
+    \item[] \texttt{git log} \\Displays the commit history, including commit IDs, messages, and authors.
+
+    \item[] \texttt{git diff} \\Shows changes made to tracked files that have not been staged. Use \texttt{git diff <file>} to view changes for a specific file.
+
+    \item[] \texttt{git stash} \\Temporarily saves changes that are not ready to be committed, allowing a clean working directory.
+
+    \item[] \texttt{git remote add origin <url>} \\Links a local repository to a remote repository for easy collaboration.
+
+    \item[] \texttt{git rm <file>} \\Removes a file from the repository and stages the deletion.
+\end{itemize}
+
+
+% \bibliographystyle{IEEEtran}
+% \bibliography{ref}
+
+
+
+\end{document}

@@ -1,0 +1,1 @@
+[string "local lfs = require("lfs") local cacheDir = "..."]:1: Could not open file "/images/output/lr1.md" for reading

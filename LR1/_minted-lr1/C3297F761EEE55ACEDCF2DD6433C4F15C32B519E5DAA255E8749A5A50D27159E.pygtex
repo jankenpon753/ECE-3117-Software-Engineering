@@ -1,0 +1,51 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Types of header}
+\PYG{g+gh}{\PYGZsh{} Header 1}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Header 2}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 3}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 4}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 5}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 6}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Emphasis}
+\PYG{g+ge}{\PYGZus{}This is italic writting using underscore\PYGZus{}}\PYGZlt{}br\PYGZgt{}
+\PYG{g+ge}{*This is italic writting using star*}\PYGZlt{}br\PYGZgt{}
+
+\PYG{g+gs}{\PYGZus{}\PYGZus{}This is bold writting using dash\PYGZus{}\PYGZus{}}\PYGZlt{}br\PYGZgt{}
+\PYG{g+gs}{**This is bold writting using star**}\PYGZlt{}br\PYGZgt{}
+
+***This is bold and italic writing using star***\PYGZlt{}br\PYGZgt{}
+\PYGZus{}\PYGZus{}\PYGZus{}This is bold and italic writing using dash\PYGZus{}\PYGZus{}\PYGZus{}\PYGZlt{}br\PYGZgt{}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Strike through}
+\PYG{g+gd}{\PYGZti{}\PYGZti{}A line through the text\PYGZti{}\PYGZti{}}\PYGZlt{}br\PYGZgt{}
+
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Links}
+[https://www.w3schools.com/js/default.asp]\PYGZlt{}br\PYGZgt{}
+
+[https://codeforces.com/]\PYGZlt{}br\PYGZgt{}
+
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} table}
+| Name      | Age | Occupation     |
+|\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}|\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}|\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}|
+| John Doe  | 25  | Software Engineer |
+| Jane Smith| 30  | Data Scientist    |
+| Bob Brown | 28  | Product Manager   |
+
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} image}
+![\PYG{n+nt}{Landscape}](\PYG{n+na}{https://www.w3schools.com/w3images/lights.jpg})
+
+
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Source Code:}
+\PYG{l+s+sb}{```python}
+\PYG{k}{def} \PYG{n+nf}{display\PYGZus{}message}\PYG{p}{():}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}HELLO WORLD.\PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Call the function}
+\PYG{n}{display\PYGZus{}message}\PYG{p}{()}
+\PYG{l+s+sb}{```}
+\end{Verbatim}

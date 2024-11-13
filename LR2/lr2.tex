@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6in, 8.5in}]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {images/output/} }
+\usepackage{amsmath}
+\usepackage{minted}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage[english]{babel}
+\usepackage{placeins}
+\usepackage{titling}
+
+\title{Best Coding Practices}
+\author{}
+\date{}
+
+\begin{document}
+\pagenumbering{gobble}
+\input{oishi_mam_cover.tex}
+
+\maketitle
+\section*{Introduction}
+Best coding practices improve code readability, maintainability, and consistency. Here's an overview of key naming and structuring conventions:
+
+\subsection*{Naming Conventions}
+In programming, spaces are reserved characters. For a program to not crash, spaces between the different words when creating the variable is not allowed. For the program to work correctly, all the spaces are to be removevd and the words are to be combined into a single string in a specific way. And there are a few ways available to combine them.
+
+\begin{description}
+    \item[Camel Case] In this case, a capital letter appears at the start of the second word and at each new subsequent word that follows it. Common in Java, JavaScript, and Swift. Example: \\ \verb|numberOfDonuts = 34|
+    \item[Snake Case] Snake case separates each word with an underscore character (\_). Often used in Python and Ruby. Example:\\ \verb|number_of_donuts = 34|
+    \item[Pascal Case] Pascal case is similar to camel case. The only difference between the two is that pascal case requires the first letter of the first word to also be capitalized. Used for class names in languages like C\# and Java. Example:\\ \verb|NumberOfDonuts = 34|
+    \item[Kebab Case] The kebab case is very similar to snake case. The difference between snake case and kebab case is that kebab case separates each word with a dash character, -, instead of an underscore. Example:\\ \verb|number-of-donuts = 34|
+\end{description}
+
+Other than these, choosing names that clearly describe purpose (e.g., totalCount rather than cnt) also helps increase code readability.
+
+\subsection*{Function Names}
+\begin{description}
+    \item[Use Verb-Noun Format] Describe actions (e.g., calculateTotal, fetchUserData).
+    \item[Keep It Short] Aim for clarity without verbosity.
+\end{description}
+
+\subsection*{Constants}
+Uppercase with Underscores (\verb|MAX_LIMIT|): Common in C, C++, and Python.
+
+\subsection*{General Structure}
+\begin{description}
+    \item[Consistent Indentation] Use uniform spacing for readability.
+    \item[Avoid Magic Numbers] Assign key values to named constants (\verb|PI_VALUE = 3.1415|).\\\\
+\end{description}
+
+By following these practices, code becomes clearer, easier to debug, and more standardized across teams.
+
+% \bibliographystyle{IEEEtran}
+% \bibliography{ref}
+
+\end{document}

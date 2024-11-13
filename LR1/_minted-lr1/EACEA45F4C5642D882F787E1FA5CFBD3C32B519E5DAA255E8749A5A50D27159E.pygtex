@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYGZsh{} Markdown Syntax Guide
+
+This document provides examples of basic Markdown syntax elements, including headings, lists, links, images, tables, and code blocks.
+
+\PYGZhy{}\PYGZhy{}\PYGZhy{}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Headings}
+
+Use \PYG{l+s+sb}{`\PYGZsh{}`} for main headings, \PYG{l+s+sb}{`\PYGZsh{}\PYGZsh{}`} for sub\PYGZhy{}headings, and so on.
+
+\PYG{g+gh}{\PYGZsh{} Main Heading (H1)}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Subheading (H2)}
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Sub\PYGZhy{}subheading (H3)}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Emphasis}
+
+\PYG{k}{\PYGZhy{}}\PYG{+w}{ }\PYG{g+ge}{*Italic*}: \PYG{l+s+sb}{`*Italic*`} or \PYG{l+s+sb}{`\PYGZus{}Italic\PYGZus{}`}
+\PYG{k}{\PYGZhy{}}\PYG{+w}{ }\PYG{g+gs}{**Bold**}: \PYG{l+s+sb}{`**Bold**`} or \PYG{l+s+sb}{`\PYGZus{}\PYGZus{}Bold\PYGZus{}\PYGZus{}`}
+\PYG{k}{\PYGZhy{}}\PYG{+w}{ }***Bold and Italic***: \PYG{l+s+sb}{`***Bold and Italic***`}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Lists}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Unordered List}
+
+\PYG{k}{\PYGZhy{}}\PYG{+w}{ }Item 1
+\PYG{k}{\PYGZhy{}}\PYG{+w}{ }Item 2
+\PYG{+w}{  }\PYG{k}{\PYGZhy{}}\PYG{+w}{ }Subitem 2.1
+\PYG{+w}{  }\PYG{k}{\PYGZhy{}}\PYG{+w}{ }Subitem 2.2
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Ordered List}
+
+\PYG{k}{1.} First item
+\PYG{k}{2.} Second item
+\PYG{+w}{   }\PYG{k}{1.} Subitem 2.1
+\PYG{+w}{   }\PYG{k}{2.} Subitem 2.2
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Links and Images}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Link}
+
+[\PYG{n+nt}{OpenAI Website}](\PYG{n+na}{https://www.openai.com})
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Image}
+
+![\PYG{n+nt}{OpenAI Logo}](\PYG{n+na}{https://upload.wikimedia.org/wikipedia/commons/6/62/OpenAI\PYGZus{}Logo.svg})
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Blockquotes}
+
+Use \PYG{l+s+sb}{`\PYGZgt{}`} to create a blockquote.
+
+\PYG{k}{\PYGZgt{} }\PYG{g+ge}{\PYGZdq{}Artificial intelligence is the future, and the future is now.\PYGZdq{} \PYGZhy{} Author Unknown}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{} Code Blocks and Inline Code}
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Inline Code}
+
+Use backticks to indicate inline code, like \PYG{l+s+sb}{`print(\PYGZdq{}Hello, World!\PYGZdq{})`}.
+
+\PYG{g+gu}{\PYGZsh{}\PYGZsh{}\PYGZsh{} Code Block}
+
+```python
+def greet():
+    print(\PYGZdq{}Hello, World!\PYGZdq{})
+
+\end{Verbatim}

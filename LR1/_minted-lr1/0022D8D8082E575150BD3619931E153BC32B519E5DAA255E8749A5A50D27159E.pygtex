@@ -1,0 +1,62 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Types of header
+
+    \PYGZsh{} Header 1
+
+    \PYGZsh{}\PYGZsh{} Header 2
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Header 3
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 4
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 5
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{} Header 6
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Emphasis
+
+    \PYG{g+ge}{\PYGZus{}This is italic writing\PYGZus{}}\PYGZlt{}br\PYGZgt{}
+
+    \PYG{g+gs}{**This is bold writing**}\PYGZlt{}br\PYGZgt{}
+
+    \PYG{g+gs}{**\PYGZus{}This is bold\PYGZhy{}italic writing\PYGZus{}**}\PYGZlt{}br\PYGZgt{}
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Strike through
+
+    \PYG{g+gd}{\PYGZti{}\PYGZti{}A line through the text\PYGZti{}\PYGZti{}}\PYGZlt{}br\PYGZgt{}
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Links
+
+    https://github.com/ \PYGZlt{}br\PYGZgt{}
+
+    https://www.google.com/ \PYGZlt{}br\PYGZgt{}
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Masked Links
+
+    [\PYG{n+nt}{Google}](\PYG{n+na}{https://www.google.com/}) \PYGZlt{}br\PYGZgt{}
+
+    [\PYG{n+nt}{Github}](\PYG{n+na}{https://github.com/})
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Table
+
+    | Dept Name | Dept Code | Students per year |
+    | \PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} | \PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} | \PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{} |
+    | ECE       | 10        | 60                |
+    | CSE       | 03        | 180               |
+    | EEE       | 01        | 180               |
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} image
+
+    ![\PYG{n+nt}{Landscape}](\PYG{n+na}{https://wallpapers.com/images/high/genshin\PYGZhy{}impact\PYGZhy{}fantasy\PYGZhy{}sunset\PYGZhy{}scenery\PYGZhy{}i3v1rmx41gnu0cv7.webp})
+
+    \PYGZsh{}\PYGZsh{}\PYGZsh{} Source Code:
+
+\PYG{l+s+sb}{    ```python}
+    \PYG{k}{def} \PYG{n+nf}{display\PYGZus{}message}\PYG{p}{():}
+        \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}HELLO WORLD.\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Call the function}
+    \PYG{n}{display\PYGZus{}message}\PYG{p}{()}
+\PYG{l+s+sb}{    ```}
+
+\end{Verbatim}
