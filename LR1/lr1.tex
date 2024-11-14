@@ -9,6 +9,7 @@
 \usepackage[english]{babel}
 \usepackage{placeins}
 \usepackage{titling}
+\usepackage{pdfpages}
 
 \title{Basic documentation using mark down}
 \author{}
@@ -90,16 +91,8 @@ display_message()
 \end{multicols}
 
 \section*{Output}
-
-\begin{figure}[hbt!]
-    \centering
-    \includegraphics[width = .6\textwidth]{md1.png}
-\end{figure}
-
-\begin{figure}[hbt!]
-    \centering
-    \includegraphics[width = .6\textwidth]{md2.png}
-\end{figure}
+The following pages are the pdf outputs of the markdown file.
+\includepdf[pages=-]{lr1_md.pdf}
 
 % \bibliographystyle{IEEEtran}
 % \bibliography{ref}
